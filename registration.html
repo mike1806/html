@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rejestracja użytkownika</title>
+</head>
+<body>
+<h1>Rejestracja</h1>
+
+<form>
+	<label for="first">Erste Name ist:</label>
+	<input type="text" id="first" name="Erst" placeholder="Mike" required="">
+	<label for="Nazwisko">Surname ist:</label>
+	<input type="text" id="last" name="Surname" placeholder="Borkowski" required>
+	
+<div>
+	<label for="male">Pan</label>
+	<input type="radio" id="male" name="Dżender" value="male">
+	<label for="female">Pani</label>
+	<input type="radio" id=female name="Dżender" value="female">
+	<label for="other">Trans</label>
+	<input type="radio" id="other" name="Dżender" value="other">
+</div>
+
+<div>
+	<label>
+	Email:
+	<input name="email" type="email" placeholder="tu e-mail" required>
+	</label>
+	<label>
+	Password:
+	<label>
+	<input name="pass" type="password" placeholder="tu haslo" pattern=".{5,10}" required title="5 to 10 characters">
+	</label>
+</div>
+
+<div>
+	<lable>
+	Urodziny:
+	<select name="Urodziny">
+		<option>klasyka</option>
+		<option>chrystianizm</option>
+		<option>azja</option>
+	</select>
+	Ile piw:
+	<select name="piw">
+		<option>100</option>
+		<option>10000</option>
+		<option>2346</option>
+	</select>
+	Imie kota:
+	<select name="kot">
+		<option>Pucek</option>
+		<option>Maciek</option>
+		<option>Gacek</option>
+	</select>
+	</lable>
+</div>
+
+<div>
+	<label for="zgoda">du kannst meine Information kopieren	</label>
+	<input type="checkbox" name="zgoda" id="zgoda" required title="zaznacz bo nie pojdziesz">
+</div>
+
+<input type="submit">
+
+</form>
+
+</body>
+</html>
