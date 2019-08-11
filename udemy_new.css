@@ -1,0 +1,36 @@
+h1 {
+	color: red;
+	}
+/*
+width
+color
+style
+*/
+
+li {
+	color: purple;
+	text-shadow: 124;
+	}
+
+#special {
+	background-color: silver;
+}
+
+.xxx {
+	text-decoration: line-through;
+}
+
+h4 {
+	color: orange;
+	background: green;
+}
+body {
+	background: url(https://previews.123rf.com/images/alexzaitsev/alexzaitsev1606/alexzaitsev160600034/60180584-the-diamond-steel-metal-sheet-steel-floor-for-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+img {
+	border-color: pink;
+	border-width: 30px;
+	border-style: double;
+}
